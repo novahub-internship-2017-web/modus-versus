@@ -364,9 +364,72 @@ nav .navbar-brand span{
 .footer-main{
   background-color: #76c7c0;
   padding-top: 40px;
+  padding-bottom: 45px;
 }
 .footer-bottom{
   background-color: #6ab3ac;
+}
+.footer-text{
+  font-size: 13px;
+  color: white;
+  line-height: 23px;
+  display: block;
+}
+.footer-title{
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a7e7a;
+}
+.contact{
+  margin-top: 25px;
+}
+.info-text{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+.blog-item{
+  margin-top: 20px;
+}
+.img-blog{
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 18px;
+}
+.blog-title{
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+.blog-title span{
+  font-size: 20px;
+font-weight: bold;
+font-style: normal;
+  color: white;
+}
+.date-text{
+  font-size: 13px;
+  color: #498480;
+}
+.footer-bottom{
+  height: 50px;
+}
+.website-name-text{
+  font-size: 12px;
+  color: white;
+  line-height: 50px;
+}
+.social{
+  float: right;
+}
+.social-logo{
+  width: 22px;
+  height: 22px;
+  margin: 14px;
 }
 /*section{
   background-color:#f3f3f3;
