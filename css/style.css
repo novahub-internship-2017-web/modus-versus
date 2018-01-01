@@ -87,6 +87,9 @@ nav .navbar-brand span{
   font-size: 12px;
   color: #7f8c8c;
 }
+section{
+  background-color: #f3f3f3;
+}
 .section-text{
   font-size: 13px;
   color: #767676;
@@ -623,7 +626,7 @@ font-style: normal;
   padding-right: 10px;
   text-align: center;
   border-bottom: 4px solid #e5e7e6;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .pricing-btn-headding{
   position: absolute;
@@ -660,7 +663,7 @@ font-style: normal;
   padding-right: 10px;
   text-align: center;
   border-bottom: 4px solid #e5e7e6;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .pricing-item:hover .pricing-btn-headding{
   position: absolute;
@@ -703,4 +706,198 @@ font-style: normal;
 .slogan{
   font-size: 40px;
   color: #e1524b;
+}
+
+/* style for portfolio page */
+.navigation{
+  height: 110px;
+  padding-top: 40px;
+  background-color: #f3f3f3;
+}
+.portfolio-btn{
+  height: 33px;
+  margin-right: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #98a3a3;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #7f8c8c;
+}
+.portfolio-btn-active{
+  height: 33px;
+  margin-right: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #62a29e;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #528b86;
+}
+.portfolio-btn:hover, .portfolio-btn-active:hover{
+  height: 33px;
+  margin-right: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #e8645a;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #e2534b;
+}
+.portfolio{
+  background-color: #f3f3f3;
+}
+.portfolio-item{
+  width: 570px;
+  height: 273px;
+  border-bottom: 3px solid #e5e6e6;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 37px;
+}
+.portfolio-img{
+  width: 570px;
+  height: 270px;
+  border-radius: 5px;
+}
+.portfolio-popup{
+  display: none;
+}
+.portfolio-item:hover .portfolio-popup{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 570px;
+  height: 270px;
+  background-color: #83ccc5;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 110px;
+}
+.portfolio-item-btn{
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 4px;
+  background-color: #76b7b1;
+  border: 0px;
+}
+.portfolio-item-btn:hover{
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 4px;
+  background-color: #e2534b;
+  border: 0px;
+}
+.portfolio-title{
+  font-size: 16px;
+  color: white;
+  margin-top: 50px;
+}
+.pagination{
+  text-align: center;
+  display: block;
+  padding-top: 26px;
+  padding-bottom: 66px;
+  background-color: #f3f3f3;
+}
+.pagination-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #7f8c8c;
+  background-color: #8c9898;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin: 4px;
+}
+.pagination-btn-active{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #528b86;
+  background-color: #649792;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin: 4px;
+}
+.pagination-btn:hover, .pagination-btn-active:hover{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 3px solid #e2534b;
+  background-color: #e5655d;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin: 4px;
+}
+
+/* style for contact page */
+.map-info{
+  font-size: 13px;
+  color: #777777;
+  background-color: #ececec;
+  padding: 26px 20px;
+  margin-bottom: 55px;
+}
+.form-title{
+  font-size: 20px;
+  color: #7f8c8c;
+}
+.address-title{
+  font-size: 20px;
+  color: #7f8c8c;
+}
+.input-text{
+  width: 470px;
+  height: 40px;
+  border-radius: 6px;
+  border-top: 2px solid #d9dada;
+  border-left: 3px solid #d9dada;
+  border-right: 0px;
+  border-bottom: 0px;
+  background-color: #e5e6e6;
+  margin-bottom: 20px;
+}
+.input-textarea{
+  width: 770px;
+  height: 240px;
+  border-radius: 6px;
+  border-top: 2px solid #d9dada;
+  border-left: 3px solid #d9dada;
+  border-right: 0px;
+  border-bottom: 0px;
+  background-color: #e5e6e6;
+  margin-bottom: 30px;
+}
+.input-submit{
+    width: 200px;
+    height: 54px;
+    background-color: #e8635a;
+    font-size: 20px;
+    color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #e2534b;
+    border-radius: 4px;
+}
+label{
+  font-size: 18px;
+  color: #7f8c8c;
+  padding-left: 27px;
 }
