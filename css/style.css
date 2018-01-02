@@ -855,12 +855,17 @@ font-style: normal;
   margin-bottom: 55px;
 }
 .form-title{
+  margin-bottom: 50px;
   font-size: 20px;
   color: #7f8c8c;
 }
 .address-title{
+  margin-bottom: 50px;
   font-size: 20px;
   color: #7f8c8c;
+}
+.contact-form{
+  margin-bottom: 235px;
 }
 .input-text{
   width: 470px;
@@ -900,4 +905,26 @@ label{
   font-size: 18px;
   color: #7f8c8c;
   padding-left: 27px;
+}
+.phone-number{
+  margin-top: 25px;
+  font-size: 16px;
+  color: #777777;
+}
+.email{
+  font-size: 16px;
+  color: #e2534b;
+  text-decoration: underline;
+}
+.location-img{
+  width: 25px;
+  height: 35px;
+  float: left;
+}
+.address{
+  padding-left: 35px;
+  padding-right: 50px;
+  font-size: 14px;
+  color: #777777;
+  line-height: 18px;
 }
