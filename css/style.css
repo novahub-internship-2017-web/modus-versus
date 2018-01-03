@@ -80,12 +80,27 @@ nav .navbar-brand span{
   line-height: 80px;
   font-size: 20px;
   color: #7f8c8c;
+  padding-left: 10px;
 }
 .headline-link{
   float: right;
   line-height: 80px;
   font-size: 12px;
   color: #7f8c8c;
+}
+.headline .row{
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  bottom: -24px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+  border-top: 12px solid #ececec;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
 }
 section{
   background-color: #f3f3f3;
@@ -927,4 +942,39 @@ label{
   font-size: 14px;
   color: #777777;
   line-height: 18px;
+}
+/* style for blog page */
+.post-headding{
+  float: left;
+  width: 70px;
+  margin-right: 30px;
+}
+.post-date{
+  width: 70px;
+  height: 83px;
+  border-bottom: 3px solid #e5e6e6;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.post-month{
+  font-size: 20px;
+  color: #7f8c8c;
+  padding-top: 8px;
+}
+.post-day{
+  font-size: 30px;
+  font-weight: bold;
+  color: #7f8c8c;
+}
+.post-type{
+  margin-top: 17px;
+  width: 70px;
+  height: 73px;
+  border-bottom: 3px solid #e5e6e6;
+  border-radius: 5px;
+  background-color: #7f8c8c;
+}
+.post-content{
+  float: left;
 }
