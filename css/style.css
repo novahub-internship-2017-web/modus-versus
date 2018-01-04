@@ -52,17 +52,20 @@ nav .navbar-brand span{
   .navbar-nav{
     position: absolute;
     right: 0px;
-    width: 780px;
+    width: 770px;
   }
 }
 .nav-link{
   font-size: 13px;
 }
 .nav-item{
-  margin-left: 28px;
+  margin-left: 12px;
+  margin-top: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .nav-item-active{
-  margin-left: 28px;
+  margin-left: 12px;
   margin-top: 1px;
   height: 33px;
   padding-left: 8px;
@@ -70,6 +73,15 @@ nav .navbar-brand span{
   background-color: #62a29e;
   border-radius: 5px;
   border-bottom: 3px solid #528b86;
+}
+.nav-item-active:hover, .nav-item:hover{
+  margin-left: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 33px;
+  background-color: #e8645a;
+  border-radius: 5px;
+  border-bottom: 3px solid #e2534b;
 }
 .headline{
   height: 80px;
@@ -160,8 +172,10 @@ section{
   width: 60px;
   height: 5px;
   background-color: #b0b8ba;
+  cursor: pointer;
 }
 .carousel-indicators .active{
+  cursor: pointer;
   background-color: #e2534b;
 }
 .carousel-item{
@@ -229,6 +243,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #e2534b;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service{
   background-color: #f3f3f3;
@@ -273,6 +288,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #63bdbd;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service-item-like:hover .service-btn{
   position: absolute;
@@ -288,6 +304,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #e2534b;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service-item-key:hover .service-btn{
   position: absolute;
@@ -303,6 +320,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #e2534b;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service-item-flag:hover .service-btn{
   position: absolute;
@@ -318,6 +336,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #e2534b;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service-item-bottle:hover .service-btn{
   position: absolute;
@@ -333,6 +352,7 @@ section{
   border-right: 0px;
   border-bottom: 4px solid #e2534b;
   border-radius: 4px;
+  cursor: pointer;
 }
 .service-item-like .service-img{
   width: 60px;
@@ -505,6 +525,7 @@ section{
   border-right: 0px;
   border-bottom: 3px solid #808c8c;
   border-radius: 5px;
+  cursor: pointer;
 }
 .slider-btn:hover {
   width: 40px;
@@ -666,6 +687,7 @@ font-style: normal;
   color: white;
   border: 0px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .pricing-item:hover{
   position: relative;
@@ -764,6 +786,7 @@ font-style: normal;
   border-radius: 5px;
   border: 0px;
   border-bottom: 3px solid #e2534b;
+  cursor: pointer;
 }
 .portfolio{
   background-color: #f3f3f3;
@@ -811,6 +834,7 @@ font-style: normal;
   border-radius: 4px;
   background-color: #e2534b;
   border: 0px;
+  cursor: pointer;
 }
 .portfolio-title{
   font-size: 16px;
@@ -859,9 +883,18 @@ font-style: normal;
   color: white;
   font-weight: bold;
   margin: 4px;
+  cursor: pointer;
 }
 
 /* style for contact page */
+.map{
+  width: 100%;
+  height: 403px;
+  margin-top: 50px;
+  margin-bottom: 58px;
+  border-bottom: 3px solid #e5e6e6;
+  border-radius: 5px;
+}
 .map-info{
   font-size: 13px;
   color: #777777;
@@ -915,6 +948,7 @@ font-style: normal;
     border-right: 0px;
     border-bottom: 4px solid #e2534b;
     border-radius: 4px;
+    cursor: pointer;
 }
 label{
   font-size: 18px;
