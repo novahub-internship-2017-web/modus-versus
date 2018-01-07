@@ -184,7 +184,7 @@ section{
 .carousel-caption{
   bottom: 187px;
 }
-.carousel-headding{
+.carousel-heading{
   margin: auto;
   margin-bottom: 10px;
   font-size: 50px;
@@ -664,7 +664,7 @@ font-style: normal;
   border-bottom: 4px solid #e5e7e6;
   border-radius: 5px;
 }
-.pricing-btn-headding{
+.pricing-btn-heading{
   position: absolute;
   top: -27px;
   left: 35px;
@@ -702,7 +702,7 @@ font-style: normal;
   border-bottom: 4px solid #e5e7e6;
   border-radius: 5px;
 }
-.pricing-item:hover .pricing-btn-headding{
+.pricing-item:hover .pricing-btn-heading{
   position: absolute;
   top: -27px;
   left: 35px;
@@ -978,9 +978,15 @@ label{
   line-height: 18px;
 }
 /* style for blog page */
-.post-headding{
-  float: left;
+.post{
+  padding-top: 40px;
+  padding-bottom: 45px;
+  display: flex;
+  border-bottom: 3px solid #e5e6e6;
+}
+.post-heading{
   width: 70px;
+  float: left;
   margin-right: 30px;
 }
 .post-date{
@@ -1010,5 +1016,43 @@ label{
   background-color: #7f8c8c;
 }
 .post-content{
+  width: 770px;
   float: left;
+}
+.post-link{
+  font-size: 14px;
+  color: #e2534b;
+}
+.post-img{
+  width: 770px;
+  height: 303px;
+  border-radius: 5px;
+  border-bottom: 3px solid #e5e6e6;
+}
+.post-title{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  color: #76c7c0;
+}
+.post-describle{
+  font-size: 14px;
+  color: #7f8c8c;
+}
+.post-text{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #7f8c8c;
+}
+.post-text-italic{
+  padding-top: 30px;
+  font-style: italic;
+  font-size: 14px;
+  color: #7f8c8c;
+}
+.post-content .carousel-inner{
+  height: 463px;
+  border-radius: 5px;
+  border-bottom: 3px solid #e5e6e6;
 }
