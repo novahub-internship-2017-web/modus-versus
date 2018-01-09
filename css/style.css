@@ -37,6 +37,10 @@ nav .navbar-brand span{
   font-size: 25px;
   font-weight: normal;
 }
+.navbar-toggler{
+  position: absolute;
+  right: 15px;
+}
 .search-logo{
   width: 19px;
   height: 19px;
@@ -79,9 +83,33 @@ nav .navbar-brand span{
   padding-left: 8px;
   padding-right: 8px;
   height: 33px;
-  background-color: #62a29e;
+  background-color: #e8645a;
   border-radius: 5px;
-  border-bottom: 3px solid #528b86;
+  border-bottom: 3px solid #e2534b;
+}
+@media (max-width:991px) {
+  .nav-item{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .nav-item-active{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #62a29e;
+    border-radius: 0px;
+    border-bottom: 3px solid #62a29e;
+  }
+  .nav-item:hover{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #62a29e;
+    border-radius: 0px;
+    border-bottom: 3px solid #62a29e;
+  }
 }
 .dropdown-menu{
   top: 45px;
