@@ -74,14 +74,38 @@ nav .navbar-brand span{
   border-radius: 5px;
   border-bottom: 3px solid #528b86;
 }
-.nav-item-active:hover, .nav-item:hover{
+.nav-item:hover{
   margin-left: 12px;
   padding-left: 8px;
   padding-right: 8px;
   height: 33px;
-  background-color: #e8645a;
+  background-color: #62a29e;
   border-radius: 5px;
-  border-bottom: 3px solid #e2534b;
+  border-bottom: 3px solid #528b86;
+}
+.dropdown-menu{
+  top: 45px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  background-color: #e2534b;
+}
+.dropdown-item{
+  margin-bottom: 5px;
+  padding: 6px 9px;
+  font-size: 13px;
+  color: white;
+  background-color: #e5655d;
+  border-radius: 3px;
+}
+.dropdown-item:hover{
+  margin-bottom: 5px;
+  padding: 6px 9px;
+  font-size: 13px;
+  color: white;
+  background-color: #76c7c0;
+  border-radius: 3px;
 }
 .headline{
   height: 80px;
