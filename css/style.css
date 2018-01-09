@@ -848,6 +848,14 @@ font-style: normal;
   padding-bottom: 66px;
   background-color: #f3f3f3;
 }
+.pagination-left{
+  text-align: left;
+  display: block;
+  padding-left: 15px;
+  padding-top: 26px;
+  padding-bottom: 66px;
+  background-color: #f3f3f3;
+}
 .pagination-btn{
   width: 40px;
   height: 40px;
@@ -984,6 +992,12 @@ label{
   display: flex;
   border-bottom: 3px solid #e5e6e6;
 }
+.post:first-of-type{
+  padding-top: 110px;
+  padding-bottom: 45px;
+  display: flex;
+  border-bottom: 3px solid #e5e6e6;
+}
 .post-heading{
   width: 70px;
   float: left;
@@ -1055,4 +1069,46 @@ label{
   height: 463px;
   border-radius: 5px;
   border-bottom: 3px solid #e5e6e6;
+}
+aside{
+  padding-top: 75px;
+}
+aside .section-title{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.link-group{
+}
+.link-group .post-link{
+  line-height: 30px;
+}
+.recent-post{
+  padding-right: 20px;
+}
+.recent-post img{
+  float: left;
+  margin-bottom: 20px;
+}
+.recent-post-date{
+  font-size: 12px;
+  color: #7f8c8c;
+  padding-left: 40px;
+}
+.tag-button{
+  margin-bottom: 10px;
+  padding: 2px 12px;
+  background-color: #7f8c8c;
+  font-size: 14px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+.tag-button:hover{
+  margin-bottom: 10px;
+  padding: 2px 12px;
+  background-color: #e2534b;
+  font-size: 14px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
 }
