@@ -19,6 +19,9 @@ a:hover{
 nav{
   min-height: 80px;
   background-color: #76c7c0;
+  background-image: url(../image/striped-background-nav.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
 }
 nav .row{
   margin: auto;
@@ -140,6 +143,17 @@ nav .navbar-brand span{
   background-color: #76c7c0;
   border-radius: 3px;
 }
+.dropdown-arrow{
+  width: 0px;
+  height: 0px;
+  border-bottom: 6px solid #e2534b;
+  border-top: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  top: -12px;
+  left: 12px;
+}
 .headline{
   height: 80px;
   background-color: #ececec;
@@ -245,6 +259,7 @@ section{
   margin: auto;
   margin-bottom: 10px;
   font-size: 50px;
+  font-weight: bolder;
   line-height: 50px;
   color: white;
   width: 346px;
@@ -284,7 +299,7 @@ section{
 .intro-title{
   font-size: 30px;
   color: #808c8c;
-  font-weight: bold;
+  font-weight: 600;
 }
 .intro-box button{
   position: absolute;
@@ -466,6 +481,9 @@ section{
   height: 400px;
   padding-top: 55px;
   background-color: #ececec;
+  background-image: url(../image/striped-background.png);
+  background-repeat: repeat-x;
+  background-position: center top;
   text-align: center;
 }
 .about-title-large{
@@ -605,6 +623,9 @@ section{
 }
 .footer-main{
   background-color: #76c7c0;
+  background-image: url(../image/striped-background-footer.png);
+  background-repeat: repeat-x;
+  background-position: center top;
   padding-top: 40px;
   padding-bottom: 45px;
 }
@@ -707,6 +728,9 @@ font-style: normal;
 .pricing-main{
   padding-top: 50px;
   background-color: #ececec;
+  background-image: url(../image/striped-background.png);
+  background-repeat: repeat-x;
+  background-position: center top;
   height: 400px;
 }
 .pricing-title{
