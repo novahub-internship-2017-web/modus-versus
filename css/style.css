@@ -70,32 +70,7 @@ nav .navbar-brand span{
 .nav-link{
   font-size: 13px;
 }
-.nav-item{
-  margin-left: 12px;
-  margin-top: 1px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-.nav-item-active{
-  margin-left: 12px;
-  margin-top: 1px;
-  height: 33px;
-  padding-left: 8px;
-  padding-right: 8px;
-  background-color: #62a29e;
-  border-radius: 5px;
-  border-bottom: 3px solid #528b86;
-}
-.nav-item:hover{
-  margin-left: 12px;
-  padding-left: 8px;
-  padding-right: 8px;
-  height: 33px;
-  background-color: #e8645a;
-  border-radius: 5px;
-  border-bottom: 3px solid #e2534b;
-}
-@media (max-width:991px) {
+
   .nav-item{
     margin-top: 10px;
     text-align: center;
@@ -116,7 +91,33 @@ nav .navbar-brand span{
     padding-right: 8px;
     background-color: #62a29e;
     border-radius: 0px;
-    border-bottom: 3px solid #62a29e;
+  }
+
+@media (min-width: 992px) {
+  .nav-item{
+    margin-left: 12px;
+    margin-top: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .nav-item-active{
+    margin-left: 12px;
+    margin-top: 1px;
+    height: 33px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #62a29e;
+    border-radius: 5px;
+    border-bottom: 3px solid #528b86;
+  }
+  .nav-item:hover{
+    margin-left: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 33px;
+    background-color: #e8645a;
+    border-radius: 5px;
+    border-bottom: 3px solid #e2534b;
   }
 }
 .dropdown-menu{
