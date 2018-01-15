@@ -11,7 +11,8 @@ a:hover{
   color:white !important;
 }
 .row{
-  width: 1200px;
+  width: auto;
+  max-width: 1200px;
   margin: auto;
   padding-left: 0px;
   padding-right: 0px;
@@ -44,10 +45,6 @@ nav .navbar-brand{
 nav .navbar-brand span{
   font-size: 25px;
   font-weight: normal;
-}
-.navbar-toggler{
-  position: absolute;
-  right: 15px;
 }
 .search-logo{
   width: 19px;
@@ -303,9 +300,7 @@ section{
   font-weight: 600;
 }
 .intro-box button{
-  position: absolute;
-  right: 0px;
-  top:4px;
+  margin-top: 10px;
   width: 200px;
   height: 54px;
   background-color: #e8635a;
@@ -318,6 +313,25 @@ section{
   border-radius: 4px;
   cursor: pointer;
 }
+@media (min-width: 992px){
+  .intro-box button{
+    margin-top: 0px;
+    position: absolute;
+    right: 23px;
+    top:23px;
+    width: 200px;
+    height: 54px;
+    background-color: #e8635a;
+    font-size: 20px;
+    color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid #e2534b;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
 .service{
   background-color: #f3f3f3;
 }
@@ -325,6 +339,7 @@ section{
   position: relative;
   max-width: 270px;
   height: 314px;
+  margin: auto;
   margin-bottom: 76px;
   background-color: #f8f8f8;
   padding-top: 45px;
@@ -350,7 +365,9 @@ section{
 .service-btn{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #76caca;
@@ -366,7 +383,9 @@ section{
 .service-item-like:hover .service-btn{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e8635a;
@@ -382,7 +401,9 @@ section{
 .service-item-key:hover .service-btn{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e8635a;
@@ -398,7 +419,9 @@ section{
 .service-item-flag:hover .service-btn{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e8635a;
@@ -414,7 +437,9 @@ section{
 .service-item-bottle:hover .service-btn{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e8635a;
@@ -479,7 +504,7 @@ section{
   margin-bottom: 20px;
 }
 .about-header{
-  height: 400px;
+  height: 200px;
   padding-top: 55px;
   background-color: #ececec;
   background-image: url(../image/striped-background.png);
@@ -487,44 +512,89 @@ section{
   background-position: center top;
   text-align: center;
 }
+@media (min-width: 992px){
+  .about-header{
+    height: 400px;
+    padding-top: 55px;
+    background-color: #ececec;
+    background-image: url(../image/striped-background.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+  }
+}
 .about-title-large{
   font-size: 40px;
   font-weight: 600;
   color: #e2524a;
 }
-.about .section-title{
-  margin-bottom: 15px;
-}
 .text-detail .section-text{
   line-height: 22px;
+}
+.text-detail{
+  width: 240px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+@media (min-width: 992px){
+  .text-detail{
+    width: auto;
+    margin-bottom: 0px;
+  }
 }
 .about-body{
   background-color: #f3f3f3;
 }
-.about-body .col-lg-3{
-  position: relative;
-  padding-top: 210px;
-  padding-bottom: 55px;
+.about .section-title{
+  margin-bottom: 0px;
+  text-align: center;
+}
+@media (min-width: 992px){
+  .about .section-title{
+    margin-bottom: 15px;
+    text-align: left;
+  }
 }
 .about-frame-left{
+  margin: auto;
   padding: 41px 4px 4px;
   background-image: url("../image/frame-small.png");
   width: 370px;
   height: 260px;
-  position: absolute;
-  top:-144px;
-  left: 15px;
-  z-index: 0;
 }
 .about-frame-right{
+  margin: auto;
   padding: 41px 4px 4px;
   background-image: url("../image/frame-small.png");
   width: 370px;
   height: 260px;
-  position: absolute;
-  top:-144px;
-  right: 15px;
-  z-index: 0;
+}
+@media (min-width: 992px){
+  .about-body .col-lg-3{
+    position: relative;
+    padding-top: 210px;
+    padding-bottom: 55px;
+  }
+  .about-frame-left{
+    padding: 41px 4px 4px;
+    background-image: url("../image/frame-small.png");
+    width: 370px;
+    height: 260px;
+    position: absolute;
+    top:-144px;
+    left: 15px;
+    z-index: 0;
+  }
+  .about-frame-right{
+    padding: 41px 4px 4px;
+    background-image: url("../image/frame-small.png");
+    width: 370px;
+    height: 260px;
+    position: absolute;
+    top:-144px;
+    right: 15px;
+    z-index: 0;
+  }
 }
 .client-say{
   font-size: 13px;
@@ -542,19 +612,27 @@ section{
   height: 215px;
   border-radius: 5px;
 }
-.about-body .col-lg-6{
-  position: relative;
-  padding-top: 210px;
-}
 .about-frame-center{
+  margin: auto;
   padding: 44px 4px 3px;
   background-image: url("../image/frame-large.png");
   width: 570px;
   height: 360px;
-  position: absolute;
-  top: -204px;
-  z-index: 1;
-
+}
+@media (min-width: 992px){
+  .about-body .col-lg-6{
+    position: relative;
+    padding-top: 210px;
+  }
+  .about-frame-center{
+    padding: 44px 4px 3px;
+    background-image: url("../image/frame-large.png");
+    width: 570px;
+    height: 360px;
+    position: absolute;
+    top: -204px;
+    z-index: 1;
+  }
 }
 .about-img-large{
   width: 562px;
@@ -663,6 +741,7 @@ a.footer-text:hover{
 }
 .blog-item{
   margin-top: 20px;
+  height: 70px;
 }
 .img-blog{
   width: 70px;
@@ -757,7 +836,9 @@ font-style: normal;
 .pricing-btn-heading{
   position: absolute;
   top: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #7f8c8c;
@@ -769,7 +850,9 @@ font-style: normal;
 .pricing-btn-buy{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #7f8c8c;
@@ -795,7 +878,9 @@ font-style: normal;
 .pricing-item:hover .pricing-btn-heading{
   position: absolute;
   top: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e2534b;
@@ -807,7 +892,9 @@ font-style: normal;
 .pricing-item:hover .pricing-btn-buy{
   position: absolute;
   bottom: -27px;
-  left: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: 200px;
   height: 54px;
   background-color: #e2534b;
