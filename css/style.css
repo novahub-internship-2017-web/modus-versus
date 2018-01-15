@@ -10,6 +10,11 @@ a{
 a:hover{
   color:white !important;
 }
+@media (min-width: 992px){
+.container{
+    max-width: 1200px;
+}
+}
 .row{
   width: auto;
   max-width: 1200px;
@@ -61,7 +66,7 @@ nav .navbar-brand span{
   .navbar-nav{
     position: absolute;
     right: 0px;
-    width: 770px;
+    width: 750px;
   }
 }
 .nav-link{
@@ -70,6 +75,11 @@ nav .navbar-brand span{
 
   .nav-item{
     margin-top: 10px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .nav-item-search{
     text-align: center;
     padding-left: 8px;
     padding-right: 8px;
@@ -89,7 +99,6 @@ nav .navbar-brand span{
     background-color: #62a29e;
     border-radius: 0px;
   }
-
 @media (min-width: 992px) {
   .nav-item{
     margin-left: 12px;
@@ -504,7 +513,7 @@ section{
   margin-bottom: 20px;
 }
 .about-header{
-  height: 200px;
+  height: 220px;
   padding-top: 55px;
   background-color: #ececec;
   background-image: url(../image/striped-background.png);
@@ -614,10 +623,10 @@ section{
 }
 .about-frame-center{
   margin: auto;
-  padding: 44px 4px 3px;
-  background-image: url("../image/frame-large.png");
-  width: 570px;
-  height: 360px;
+  padding: 41px 4px 4px;
+  background-image: url("../image/frame-small.png");
+  width: 370px;
+  height: 260px;
 }
 @media (min-width: 992px){
   .about-body .col-lg-6{
@@ -635,9 +644,16 @@ section{
   }
 }
 .about-img-large{
-  width: 562px;
-  height: 313px;;
-  border-radius: 8px;
+  width: 362px;
+  height: 215px;
+  border-radius: 5px;
+}
+@media (min-width: 992px){
+  .about-img-large{
+    width: 562px;
+    height: 313px;;
+    border-radius: 8px;
+  }
 }
 .about .about-text{
   line-height: 27px;
@@ -767,7 +783,7 @@ font-style: normal;
   color: #498480;
 }
 .footer-bottom{
-  height: 50px;
+  min-height: 50px;
 }
 .website-name-text{
   font-size: 12px;
